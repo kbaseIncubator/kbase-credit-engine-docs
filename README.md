@@ -3,4 +3,4 @@
 Internal documentation for the Credit Engine project.
 
 - markdown
-- images per doc in `images/x`
+- images in `images/x` where `x` is some grouping that makes sense.

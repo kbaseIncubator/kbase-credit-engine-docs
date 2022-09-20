@@ -187,7 +187,42 @@ If some UI process requires or is optionally able to use an ORCID Link (e.g. to 
 
 The ORCID Link prototype includes a small workflow which demonstrates this.
 
-> TODO - go through that process here
+#### Instructions
+
+1. Use the Demo link to start the process
+
+   ![Interstitial demo start link](./images/link-from-process/demo-link.png)
+
+2. In Step 1, select either the first or second link.
+
+   Each link will re-enter this page at the indicated step. This is controlled by the link.
+
+   ![Demo page](./images/link-from-process/demo-page.png)
+
+3. Start the linking process.
+
+   ![Start linking](./images//link-from-process/start-link.png)
+
+   - Note that there is now an info alert above the buttons letting the user know
+   that they will re-enter whatever process they started in.
+
+      The information in the link provides a url as well as a label to display to the user
+
+4. Sign in to ORCID
+
+   ![Sign in to ORCID](./images/link-from-process//orcid-sign-in.png)
+
+5. Authorize KBase
+
+   ![Authorize KBase](./images/link-from-process/orcid-authorize.png)
+
+6. Confirm the linking
+
+   ![Confirm link](./images/link-from-process/confirm-link.png)
+
+7. Return to the original demo page, at the requested step
+
+   ![Return to process page](./images/link-from-process/back-to-demo-page.png)
 
 ### Revoke Link
 
